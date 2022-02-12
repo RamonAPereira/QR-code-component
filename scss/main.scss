@@ -1,0 +1,54 @@
+//Typography
+$font: "Outfit", sans-serif;
+
+//Body
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: none;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+//Card
+.main-card {
+  width: fit-content;
+  height: fit-content;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-radius: 22px;
+  gap: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
+  font-family: $font;
+
+  &__image {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 22px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__title {
+    max-width: 16rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  &__paragraph {
+    max-width: 16rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}

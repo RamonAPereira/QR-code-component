@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  display: none;
+  background-color: #d6e2f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh; }
+
+.main-card {
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-radius: 22px;
+  gap: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
+  font-family: "Outfit", sans-serif; }
+  .main-card__image {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 22px;
+    margin-bottom: 0.5rem; }
+  .main-card__title {
+    max-width: 16rem;
+    text-align: center;
+    font-size: 1.2rem; }
+  .main-card__paragraph {
+    max-width: 16rem;
+    text-align: center;
+    font-size: 0.9rem; }
